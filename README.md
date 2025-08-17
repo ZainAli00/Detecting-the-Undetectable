@@ -20,6 +20,12 @@ requirements.txt – Python dependencies to run the notebook.
 
 5- Using AUROC, Precision, Recall, F1, Accuracy
 
+# Note on Running Experiments  
+The notebook combines small and large model evaluations in a single cell for convenience.  
+If you encounter errors, it is recommended to **separate the code for small and large models** into different cells and run them individually.  
+This makes debugging easier and saves time when an error occurs in one model without interrupting the others.
+
+
 ## Datasets
 
 Datasets are not included in this repo. Please download separately and update paths in the notebook:
