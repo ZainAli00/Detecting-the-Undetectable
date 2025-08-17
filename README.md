@@ -14,11 +14,11 @@ requirements.txt – Python dependencies to run the notebook.
 
 2-Generate perturbations with T5-base
 
-3-Score text with chosen models (GPT, OPT, Pythia, etc.)
+3-Score text with chosen models (GPT, Pythia, etc.)
 
 4-Compute NPR values
 
-5- using AUROC, Precision, Recall, F1, Accuracy
+5- Using AUROC, Precision, Recall, F1, Accuracy
 
 ## Datasets
 
