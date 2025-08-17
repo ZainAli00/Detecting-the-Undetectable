@@ -20,11 +20,6 @@ requirements.txt – Python dependencies to run the notebook.
 
 5- Using AUROC, Precision, Recall, F1, Accuracy
 
-# Note on Running Experiments  
-The notebook combines small and large model evaluations in a single cell for convenience.  
-If you encounter errors, it is recommended to **separate the code for small and large models** into different cells and run them individually.  
-This makes debugging easier and saves time when an error occurs in one model without interrupting the others.
-
 
 ## Datasets
 
@@ -49,3 +44,11 @@ Hugging Face - Fake News Dataset: https://huggingface.co/datasets/ErfanMoosaviMo
 ## License
 
 This code is provided for educational and research purposes.
+
+
+
+
+# Note on Running Experiments  
+**The notebook combines small and large model evaluations in a single cell for convenience.  
+If you encounter errors, it is recommended to separate the code for small and large models into different cells and run them individually.  
+This makes debugging easier and saves time when an error occurs in one model without interrupting the others.**
