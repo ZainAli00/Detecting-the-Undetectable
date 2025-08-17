@@ -1,0 +1,25 @@
+# requirements.txt
+#
+# This file lists all the Python dependencies required to run the
+# Jupyter Notebook (Github_NPR.ipynb) for NPR-based AI text detection.
+#
+# Install dependencies using:
+#     pip install -r requirements.txt
+#
+# Contents:
+# - PyTorch & Hugging Face Transformers: model loading, perturbations, scoring
+# - Pandas & NumPy: data handling
+# - Scikit-learn: evaluation metrics
+# - TQDM: progress bars
+# - BeautifulSoup4 & regex: text preprocessing
+# - Jupyter: run the notebook interactively
+
+torch==2.0.1
+transformers==4.36.2
+pandas==2.0.3
+numpy==1.25.0
+scikit-learn==1.3.0
+tqdm==4.65.0
+beautifulsoup4==4.12.2
+regex==2023.6.3
+jupyter==1.0.0
